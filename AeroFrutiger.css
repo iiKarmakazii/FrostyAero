@@ -25,7 +25,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 body {
 	background: url('https://iili.io/fuNUYFe.webp') center center no-repeat fixed;
-	background-size: cover;
+	background-size: 100%;
 	font-family: "Michroma", sans-serif;
    text-shadow: 2px 1px 5px  #225762;
 
@@ -143,7 +143,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(60, 184, 2
 
     color: rgb(255, 255, 255) !important;
    
-    text-shadow: 0 0 5px rgba(94, 201, 221, .8), 0 0 10px rgb(255, 255, 255);
+    text-shadow: 0 0 5px #bbffc0, 0 0 10px rgb(255, 255, 255);
 
 
     transition: 0.5s ease-in-out !important;
@@ -689,10 +689,11 @@ table#player img {
 
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://iili.io/fRlhvIV.gif');
+	content: url('https://iili.io/fRQJ0Tg.png');
     position:relative;
-    top:-20px;
-    left: 20px;
+    top:19.5px;
+    left: 21px;
+    width: 140px;
 }
 
 
