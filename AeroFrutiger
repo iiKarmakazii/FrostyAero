@@ -1,0 +1,1133 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+
+
+/* FONT (From Google Fonts) */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
+
+
+/* BACKGROUND */
+
+
+
+
+body {
+	background: url('https://iili.io/fuNUYFe.webp') center center fixed;
+	background-size: 100%;
+	font-family: "Michroma", sans-serif;
+   text-shadow: 2px 1px 5px  #225762;
+
+ 
+    font-weight: 400;
+	color: #fff
+        
+
+
+   
+}
+
+
+
+
+/* MAIN PANEL */
+
+
+
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(214, 214, 214, .5);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px
+    
+}
+
+
+
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+
+
+
+/* TOPBAR ("Welcome back, ___") */
+
+
+
+
+.topbar {
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(60, 184, 255, .3) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #fff !important;
+    text-shadow: 0px 1px 2px rgba(0, 11, 11, .5);
+	
+}
+
+
+
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+
+
+
+
+
+.navbar .navbar-nav > li > a {
+    font-size: 14.6px;
+}
+.navbar { 
+    background: url('https://iili.io/fuvDcOl.webp')center no-repeat!important;
+    background-size:cover!important;
+    border-bottom: none;
+    color: #fff!important;
+    border-radius: 10px 10px 0px 0px; 
+    font-weight: 700!important;
+     
+}
+
+
+
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+
+
+
+.navbar li a {
+  
+    font-family: "Michroma", sans-serif!important;
+     
+    	
+         
+}
+.navbar li a:hover {
+  
+    font-family: "Michroma", sans-serif!important;
+    font-weight: bolder!important;	
+         
+}
+
+
+
+
+/* NAVBAR BUTTON HOVER */
+
+
+.navbar li a:hover {
+    background: transparent !important;
+    border-bottom: none;
+    border-radius: 5px;
+
+
+    color: rgb(255, 255, 255) !important;
+   
+    text-shadow: 0 0 5px rgba(94, 201, 221, .8), 0 0 10px rgb(255, 255, 255);
+
+
+    transition: 0.5s ease-in-out !important;
+}
+/* BREADCRUMB (Home / Den) */
+
+
+
+.breadcrumb {
+	background: rgba(159, 155, 155, .5)!important;
+       color: #fff!important;
+        border: none;
+	border-radius: 5px!important;
+      
+}
+
+
+
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #fff
+}
+
+
+
+
+
+/* CSS CREDIT */
+ol.breadcrumb {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(60, 184, 255, .3) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #fff !important;
+}
+.breadcrumb::after {
+
+        content: "Template by Katie (#106445)";
+        color: #fff;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+/* BOOKMARK BUTTON */
+
+
+input.floatright, input.floatright:hover {
+	background: rgba(1, 1, 1, 0.5) !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #000000 !important;    
+}
+
+
+/* SWITCH ACCOUNT BUTTON */
+
+
+button.button, button.button:hover {
+	 background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(60, 184, 255, .3) 100%) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #fff !important;
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+	 background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(60, 184, 255, .3) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #fff !important;
+}
+
+div.feature.auto.center{
+    
+     background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(60, 184, 255, .3) 100%) !important;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8)!important;
+    border-radius: 5px!important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #fff !important;
+}
+
+
+div.feature.auto.center>form>input{
+    
+     background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(60, 184, 255, .3) 100%) !important;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8)!important;
+    border-radius: 5px!important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #fff !important;
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+    font-family: "Michroma", sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    text-align: center;
+     background: linear-gradient(to bottom, #ffffff 10%, #6dd5fa 60%, #0077be 100%);
+
+    background-clip: text;
+
+    color: transparent;
+
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
+
+  text-shadow:none;
+
+   
+}
+
+
+
+/* MEDIUM HEADER */
+
+
+h2 {
+	color: #fff;
+	font-size: 24px;
+	text-align: center
+}
+
+
+
+
+/* SMALL HEADER */
+
+
+h3 {
+	color: #fff !important;
+	font-size: 14px !important
+}
+
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+	color: #fff !important;
+        font-size: 26px !important;
+        font-family: "Michroma", sans-serif;
+}
+
+
+/* RIGHT SIDE PANELS */
+.panel {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(230, 245, 255, 0.6) 100%) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.9) !important;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 1) !important;
+    color: #fff !important;
+}
+.progress {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px !important;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    color: #000000 !important;
+}
+
+.progress-bar {
+    background-color: #00d2ff;
+    background-image: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.7) 0%, 
+        rgba(255, 255, 255, 0.2) 49%, 
+        rgba(0, 0, 0, 0.05) 50%, 
+        transparent 100%);
+        
+    border: 1px solid #0088cc !important;
+    border-radius: 3px !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 0 5px rgba(0, 210, 255, 0.5);
+    color: #000000 !important;
+}
+
+.progress div {
+    color: #000000 !important;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+
+}
+
+.s-chat-message_timestamp {
+    color: #333333 !important;
+    opacity: 0.7;
+}
+
+
+/* CHAT */
+
+
+.s-chat-message:nth-child(odd) {
+    background: linear-gradient(to bottom, #e0f7fa 0%, #b2ebf2 50%, #80deea 51%, #4dd0e1 100%) !important;
+    border: 1px solid #00acc1 !important;
+    border-radius: 0px !important;
+    box-shadow: inset 0 1px 0 rgb(255, 255, 255), 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    color: #ffffffeb !important;
+}
+
+.s-chat-message:nth-child(even) {
+    background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 50%, #e0e0e0 51%, #eeeeee 100%) !important;
+    border: 1px solid #bdbdbd !important;
+    border-radius: 0px !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 1), 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    color: #fff !important;
+}
+
+.s-chat-message__pinned {
+    background: linear-gradient(to bottom, #ffffff 0%, #b3e5fc 100%) !important;
+    border: 1px solid #81d4fa !important;
+    border-radius: 0px !important;
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.8), 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+    
+ color: #fff !important;
+}
+
+.s-chat-message_timestamp {
+    color: #546e7a !important;
+    font-size: 0.85em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: linear-gradient(to bottom, #ffffff 0%, #b3e5fc 100%) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+
+
+/* PANEL BACKGROUND COLOR */
+
+
+.table {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(60, 184, 255, .3) 100%) !important;
+    backdrop-filter: blur(20px);
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(15, 0, 0, .9);
+    color: #000 !important;
+    text-shadow: 0px 1px 2px rgba(0, 10, 9, .5);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+	border-collapse: separate;
+	border-radius: 5px
+   
+
+}
+
+
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+
+.top,
+.bottom,
+th {
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(200, 235, 255, 0.3) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #fff !important;
+    text-shadow: 0px 1px 4px rgb(0, 10, 9);
+}
+
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+
+.inner-table .left {
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(200, 235, 255, 0.3) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+border-radius: 5px!important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    color: #fff !important;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .74);
+}
+
+
+
+/* Color behind the number of all of the things above */
+
+
+.inner-table .right {
+	background: none;
+	border-radius: 0px !important
+}
+
+
+td.right {
+	border-radius: 0px !important
+}
+
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+
+.cave-grid,
+.mound-grid {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 168, 255, 0.1) 100%) !important;
+    backdrop-filter: blur(5px);
+    
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 10px !important;
+    
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+
+.feature {
+	background: #f7f8f87d !important;
+	color: #fff !important;
+	border: 1px solid #0900cb !important;
+	border-radius: 5px !important
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+
+.feature,
+div.left {
+	background: url('https://iili.io/fANxbAG.webp')center!important;
+	border: none;
+	border-radius: 5px !important
+        
+}
+
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+
+.table .left {
+	background: rgba(255, 255, 255, .5);
+   
+        border-radius: 0px
+             
+}
+
+
+/* Color behind the content of the elements listed above */
+
+
+input,
+select,
+textarea {
+	background: rgba(255, 255, 255, .5) !important;
+	border: none !important;
+	border-radius: 5px !important;
+	color: #fff !important;
+	box-shadow: none !important;
+	 text-shadow: 0px 1px 3px rgb(0, 0, 0)!important;
+}
+
+
+
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #000 !important;
+        text-shadow: none !important
+}
+
+
+/* LINK COLOR */
+
+
+a:link,
+a:visited {
+	color: #fff !important
+}
+
+
+/* LINK HOVER COLOR */
+
+
+a:hover {
+	color: #fff !important
+}
+
+
+
+
+/* SCROLL BAR */
+
+
+/* "THUMB" */
+
+
+
+
+::-webkit-scrollbar-thumb {
+	background: rgba(0,0,0) !important;
+        height: 1px !important;
+	border-radius: 0px !important;
+}
+
+/* WIDTH */
+
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+
+
+/* BACKGROUND */
+
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+
+
+/* "THUMB" */
+
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 0px
+}
+
+
+
+
+/* LION AND USER AVATAR OPACITY */
+
+
+div#lion_image {
+	opacity: 1
+}
+
+
+table#player img {
+	opacity: 1
+}
+
+
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+
+
+
+
+/* LIODEN LOGO REPLACER */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://iili.io/fRlhvIV.gif');
+    position:relative;
+    top:-20px;
+    left: 20px;
+}
+
+
+/* CAVE / MOUND IMAGES */
+
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://iili.io/fR0qpVe.webp') !important;
+     height: 100px;
+object-fit:cover;
+    
+        
+}
+
+
+a[href$="500261"]>div.cave-grid>img {
+	content: url('https://iili.io/fR0qpVe.webp') !important;
+     height: 100px;
+   
+
+
+}
+a[href$="505992"]>div.cave-grid>img {
+	content: url('https://iili.io/fR0qpVe.webp') !important;
+     height: 100px;
+    
+
+}
+a[href$="504778"]>div.cave-grid>img {
+	content: url('https://iili.io/fR0qpVe.webp') !important;
+    height: 100px;
+  
+
+}
+
+
+a[href$="lionoverview.php?id=534610"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://iili.io/fR0qpVe.webp')  !important;
+    height: 100px;
+    
+   
+   
+    
+   
+    
+    
+}
+
+
+a[href$="unsorted.php?id=534610"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://iili.io/fASi4ta.webp') !important;
+     height: 100px;
+
+    
+}
+
+
+	
+
+div.mound-grid>img {
+    background: url('https://iili.io/fASiQFp.webp');background-size: cover;width: 100%;height: 10%;padding-top: 60%;padding-right: 100%;max-height: 150px;border-radius: 10px !important;
+    background-position:center;
+}
+
+
+
+
+
+
+
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+.custom-box {
+ background: linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.2) 30%, rgba(135,224,253,0.8) 60%, rgba(83,203,241,1) 100%) !important;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+    width: 580px;
+    height: 400px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+}
+.custom-box::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    right: 380px;
+    color: #faf3eb;
+  
+    background: rgba(0, 0, 0, 0);
+    padding: 1px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+
+.top-bar {
+    background: url('https://64.media.tumblr.com/2b3ace485aa1454cd9044eefb9d50263/7636f3c5bf432393-ca/s400x600/0620add09c2e18f0f4eea244f431e074a7f59a75.gifv')center no-repeat;
+    background-size:cover;
+    
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: normal;
+    transition: color 0.4s;
+    font-size: 15px; 
+}
+
+.top-bar a:hover {
+    color: #fff;
+}
+
+
+.box-content {
+    padding-top: 50px; 
+    
+    font-size: 25px;
+}
+.side-box {
+    animation: floatBob 3s ease-in-out infinite;
+    background: rgba(255, 255, 255, .43);
+    width: 560px;
+    height: 330px;
+    position: absolute;
+    top: 50px;
+    right: 10px; 
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    overflow: auto;
+    scrollbar-width: none!important;
+    text-shadow: 2px 2px 2px #03486b;}
+@keyframes floatBob {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); } 
+    100% { transform: translateY(0px); }
+}
+.scrollSection {
+    display: flex;
+    justify-content: center;
+}
+
+.smallhoverbox1, .smallhoverbox2 {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+
+    width: 47%;
+    height: 65px;
+    margin: 1%;
+
+    background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.9) 0%, 
+        rgba(255, 255, 255, 0.5) 50%, 
+        rgba(255, 255, 255, 0.2) 51%, 
+        rgba(255, 255, 255, 0.1) 100%);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.smallhoverbox1:hover, .smallhoverbox2:hover {
+    height: 250px;
+    z-index: 100;
+    position: relative;
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    overflow-y: auto;
+}
+
+.smallhoverbox1::-webkit-scrollbar, .smallhoverbox2::-webkit-scrollbar {
+    width: 6px;
+}
+
+.smallhoverbox1::-webkit-scrollbar-track, .smallhoverbox2::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+.smallhoverbox1::-webkit-scrollbar-thumb, .smallhoverbox2::-webkit-scrollbar-thumb {
+    background: rgba(0, 210, 255, 0.5);
+    border-radius: 3px;
+}
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* KING DYNASTY */
+img[src$="ancestors.png"] {
+    content:url('https://iili.io/fASisPR.webp')!important;
+    height: 100px;
+    width:185px!important;
+
+ 
+}
+ 
+/* PRIDE DYNASTY */
+img[src$="ancestorsfem.png"] {
+    content:url('https://iili.io/fASigAF.webp')!important;
+  height: 100px;
+    width:185px!important;
+    
+
+}
+ 
+/* ACHIEVMENTS */
+img[src$="achievements.png"] {
+    content:url('https://iili.io/fASirwg.webp')!important;
+    height: 100px;
+    width:185px!important;
+
+ 
+}
+ 
+/* SHOWCASE */
+img[src$="showcase.png"] {
+    content:url('https://iili.io/fASiQFp.webp')!important;
+  height: 100px;
+    width:185px!important;
+ object-fit:contain;
+ 
+}
+/* BEETLE */
+img[src$="beetlebook.png"] {
+    content:url('https://iili.io/fR0fYkN.png')!important;
+  height: 100px;
+    width:185px!important;
+ object-fit:contain;
+ 
+}
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* GB/SB ICONS */
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('https://iili.io/fR0g1Gj.gif')!important;
+       width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://iili.io/fR0S2oJ.gif')!important;
+        width:20px!important;
+
+ 
+}
+ 
+/* EVENT CURRENCY */
+ 
+/* JAN */
+img[src$="dermestid.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+       width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* FEB */
+img[src$="heartshell.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+       width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* MARCH */
+img[src$="beetlerhino.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+        width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* APRIL */
+img[src$="easteregg.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+        width:20px!important;
+    height: 20px;
+ 
+}
+ 
+ 
+/* MAY */
+img[src$="beetlemant.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+       width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* JUNE */
+img[src$="khepri.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+        width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* JULY MS */
+img[src$="shard.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+       width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* JULY AC */
+img[src$="axion.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+       width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* AUG CB */
+img[src$="beetlecarrion.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+      width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* AUG DB */
+img[src$="bone.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+        width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* SEPT JB */
+img[src$="beetlejewel.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+     width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* SEPT ET */
+img[src$="eldritch.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+    width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* OCT BB */
+img[src$="beetleblood.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+    width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* OCT NF */
+img[src$="nephelinefeather.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+    width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* OCT DS */
+img[src$="demonicscale.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+    width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* NOV */
+img[src$="scarabbeetle.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+     width:20px!important;
+    height: 20px;
+ 
+}
+ 
+/* DEC */
+img[src$="stinkbug.png"] {
+    content:url('https://iili.io/fRlhvIV.gif')!important;
+    width:20px!important;
+    height: 20px;
+ 
+}
