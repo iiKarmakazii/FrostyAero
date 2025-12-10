@@ -25,7 +25,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 body {
 	background: url('https://iili.io/fuNUYFe.webp') center center no-repeat fixed;
-	background-size: 100%;
+	background-size: cover;
 	font-family: "Michroma", sans-serif;
    text-shadow: 2px 1px 5px  #225762;
 
